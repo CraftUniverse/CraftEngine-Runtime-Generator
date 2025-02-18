@@ -1,4 +1,4 @@
-module net.craftengine.runtime.generator
+module dev.craftengine.runtime.generator
 
 go 1.22.5
 
