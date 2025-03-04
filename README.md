@@ -23,14 +23,14 @@ go run cmd/generator/main.go <arguments>
 
 ```
 generator
-    --input <string>
-        The language to convert from (server = false)
+    --language <string>
+        The programming language to convert to (server = false)
 
     --src <string>
-        The input project path (server = false)
+        The input project root path (server = false)
 
     --output <string>
-        The output package path (server = false)
+        The output path (server = false)
 
     --port <int>
         The port to start the server on (server = true)
